@@ -2,7 +2,7 @@
 *stared: low priority
 **pls code every part as a class or function**
 
-# Data
+# Data - Deyang
 Notes: 
 **In Fixincome, the data index is defferent from others!!**
 ## day-freq indicators
@@ -13,10 +13,10 @@ Five groups:
 - commodity
 - trading factors (optional)
 
-# *HMM model
+# *HMM model 
 - use HMM on RS3000 and derived features
 
-# Feature Extraction
+# Feature Extraction - Khoa and Zhengxuan
 - **use Hierarchical clustering with DTW measure to perform clustering on on variable**
 - **After computing clusters for each variable, we compute the average of a set of time serie to get a representitaive template. (average)**
 - For each training and test sample, we ﬁrst compute DTWsubseqD to each template.(similarity measure), This provides a vector of distances, which is the same size as the number of templates, for each sample.
@@ -34,7 +34,7 @@ Five groups:
 > - element = each value in dataframe means the similarity value
 
 
-# Clustering and classification model
+# Clustering and classification model - Danni and Zijian
 ## Clustering
 - PCA before clustering
 - K-means method for clustering
@@ -55,7 +55,7 @@ Five groups:
 
 
 
-## Classification method
+## Classification method 
 - Random forest, Gradient Boosting, LDA, Logistic Reg, K-means, NN, SVM
 - remember when training, do train Xt with Yt+1, because we wanna to predict
 > Progamming Detials
@@ -77,7 +77,7 @@ Five groups:
 > - index = datetime index
 > - sigal = 0, 1, -1
 
-# Backtesting
+# Backtesting - Deyang and Yiren
 **all strategy performed on RS3000**
 ## Tail-hedging
 The tail-hedging strategy is designed for investors that seek long exposure to a given asset while being hedged against crisis periods. The strategy holds a long position during regime 1 and switches to a short position during regime 2; it is designed for assets with positive expected returns during regime 1 and negative expected returns in regime 2.
