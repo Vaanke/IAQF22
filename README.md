@@ -1,6 +1,8 @@
 # IAQF22
 *stared: low priority
-**pls code every part as a class or function**
+**Please code every part(define part as first titled) as a class or function inside a file**
+**We can easily combine all the files into a main file**
+
 
 # Data - Deyang
 Notes: 
