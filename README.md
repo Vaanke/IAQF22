@@ -1,6 +1,6 @@
 # IAQF22
 *stared: low priority
-
+**pls code every part as a class or function**
 
 # Data
 Notes: 
